@@ -6,9 +6,7 @@ def calculadora_engenharia():
         print("2 - Massa (m = F / a)")
         print("3 - Aceleração (a = F / m)")
         print("4 - Sair")
-
         escolha = input("Digite o número da opção desejada: ")
-
         if escolha == '1':
             try:
                 massa = float(input("Digite a massa (em kg): "))
